@@ -66,7 +66,7 @@ sudo timedatectl set-timezone Asia/Tokyo
 sudo service systemd-timesyncd status
 
 sudo vi /etc/systemd/timesyncd.conf
-NTP=ntp2.css.fujitsu.com
+NTP=ntp.server.com
 
 sudo service systemd-timesyncd restart
 
