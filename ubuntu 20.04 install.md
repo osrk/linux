@@ -42,24 +42,27 @@ sudo visudo
 `USER` はユーザIDとする
 
 ユーザの追加
-```
+```sh:
 adduser USER
 ```
-```
+```sh:
 useradd -d USER
 ```
 
 ユーザをsudoグループに追加する。
-```
+```sh:
 usermod -aG sudo USER 
 ```
 
 ## timezone
 
+```sh:
 sudo timedatectl set-timezone Asia/Tokyo 
+```
 
 ## NTP
 
+```sh:
 sudo service systemd-timesyncd status
 
 sudo vi /etc/systemd/timesyncd.conf
@@ -68,6 +71,7 @@ NTP=ntp2.css.fujitsu.com
 sudo service systemd-timesyncd restart
 
 timedatectl timesync-status
+```
 
 ## Proxy
 
