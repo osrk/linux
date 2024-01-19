@@ -6,4 +6,6 @@
 3. `code .` を実行する
    
 ### Python の場合
-- VSCode 右下の Python 設定が、実行する環境を選んでいるか注意する (例: Conda)
+- VSCode 右下の Python 設定が、実行する環境を選んでいるか注意する (例: conda)
+![alt](./images/vscode-python.png)
+
